@@ -3,11 +3,11 @@
 <head>
 <title>Baking with Layla</title>
 <link href="StyleSheet.css" rel="stylesheet">
-<script type="text/javascript" src="ConnectToDb.js"></script>
+<script type="text/javascript" src="ConnectToDb.js">getMostRecent();</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body onload="tester()">
 
 <div class="header">
   <h1>Layla's Baking</h1>
@@ -24,7 +24,7 @@
   <a href="AboutMe.html" class="right">About Me</a>
 </div>
 
-<div class="row">
+<div class="row" onload="tester()">
   <div class="side">
   <h2>Work in progress...</h2>
    <!--
@@ -38,13 +38,8 @@
     <div class="fakeimg" style="height:60px;">Image</div><br>
     <div class="fakeimg" style="height:60px;">Image</div>
 	-->
-	</p>
-	</p>
-	</p>
-	</p>
-	</p>
   </div>
-  <script>getMostRecent();</script>
+  <script type="text/javascript" src="ConnectToDb.js">tester();</script>
 </div>
 
 <div class="footer">
