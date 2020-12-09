@@ -3,7 +3,7 @@ from django.http import HttpResponse
 import os
 
 def bakingblog(request):
-	return render(request,  'index.html')
+	return render(request,  'TopRecipe.html')
 def aboutme(request):
 	return render(request, 'AboutMe.html')
 def bread(request):
@@ -14,3 +14,5 @@ def dessert(request):
 	return render(request, 'Dessert.html')
 def meal(request):
 	return render(request, 'Meal.html')
+def recent(request):
+	return render(request, 'MostRecent.html')
