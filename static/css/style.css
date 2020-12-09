@@ -41,6 +41,12 @@ body {
   text-decoration: none;
 }
 
+/* .navbar left aligned */
+.navbar a.left {
+	float: left;
+	background-color: #581845
+}
+
 
 /* Right-aligned link */
 .navbar a.right {
