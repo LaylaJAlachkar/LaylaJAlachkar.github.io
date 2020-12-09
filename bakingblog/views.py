@@ -14,5 +14,5 @@ def dessert(request):
 	return render(request, 'Dessert.html')
 def meal(request):
 	return render(request, 'Meal.html')
-def recent(request):
+def mostrecent(request):
 	return render(request, 'MostRecent.html')
